@@ -39,7 +39,7 @@ plt.show()
 
 
 #Histogram for AGE
-age_counts = df['Age'].value_counts()
+age_counts = df['Age']
 
 # Create the bar chart
 plt.figure(figsize=(8, 5))  # Set the figure size (width=5 inches, height=3 inches)
@@ -55,7 +55,7 @@ plt.show()
 
 
 #Histogram for Height
-height_counts = df['Height'].value_counts()
+height_counts = df['Height']
 
 # Create the bar chart
 plt.figure(figsize=(8, 5))  # Set the figure size (width=5 inches, height=3 inches)
@@ -71,7 +71,7 @@ plt.show()
 
 
 #Histogram for Weight
-weight_counts = df['Weight'].value_counts()
+weight_counts = df['Weight']
 
 # Create the bar chart
 plt.figure(figsize=(8, 5))  # Set the figure size (width=5 inches, height=3 inches)
@@ -87,7 +87,7 @@ plt.show()
 
 
 #Histogram for Body_Temp
-Temp_counts = df['Body_Temp'].value_counts()
+Temp_counts = df['Body_Temp']
 
 # Create the bar chart
 plt.figure(figsize=(8, 5))  # Set the figure size (width=5 inches, height=3 inches)
@@ -103,7 +103,7 @@ plt.show()
 
 
 #Histogram for Duration
-duration_counts = df['Duration'].value_counts()
+duration_counts = df['Duration']
 
 # Create the bar chart
 plt.figure(figsize=(8, 5))  # Set the figure size (width=5 inches, height=3 inches)
@@ -119,7 +119,7 @@ plt.show()
 
 
 #Histogram for Heart_Rate
-Hrate_counts = df['Heart_Rate'].value_counts()
+Hrate_counts = df['Heart_Rate']
 
 # Create the bar chart
 plt.figure(figsize=(8, 5))  # Set the figure size (width=5 inches, height=3 inches)
