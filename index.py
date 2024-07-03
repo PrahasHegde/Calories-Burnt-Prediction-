@@ -138,7 +138,7 @@ plt.show()
 print(df.iloc[:, 2:])
 
 
-#correlation Heatmap
+#correlation Heatmap to check correlation between diffrent features
 plt.figure(figsize=(8, 6))  # Set the figure size
 sns.heatmap(df.iloc[:, 2:].corr(), annot=True, cmap='coolwarm', cbar=True)
 
@@ -177,10 +177,10 @@ xgbr_prediction = xgbr.predict(X_test)
 
 #metrics for evaluation
 xgbr_mae = mae(y_test, xgbr_prediction)
-print(xgbr_mae) # 1.4849313759878278 
+print("mean_abs_error", xgbr_mae) # 1.4849313759878278 
 
 xgbr_r2 = r2(y_test, xgbr_prediction)
-print(xgbr_r2) # 0.9988308899957399 
+print("r2_error", xgbr_r2) # 0.9988308899957399 
 
 
 #graph which gives us the difference between the Actual and the Predicted value
