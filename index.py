@@ -39,11 +39,11 @@ plt.show()
 
 
 #Histogram for AGE
-gender_counts = df['Age'].value_counts()
+age_counts = df['Age'].value_counts()
 
 # Create the bar chart
 plt.figure(figsize=(8, 5))  # Set the figure size (width=5 inches, height=3 inches)
-gender_counts.plot(kind='hist')
+age_counts.plot(kind='hist')
 
 # Add titles and labels
 plt.title('Age Counts')
@@ -55,11 +55,11 @@ plt.show()
 
 
 #Histogram for Height
-gender_counts = df['Height'].value_counts()
+height_counts = df['Height'].value_counts()
 
 # Create the bar chart
 plt.figure(figsize=(8, 5))  # Set the figure size (width=5 inches, height=3 inches)
-gender_counts.plot(kind='hist')
+height_counts.plot(kind='hist')
 
 # Add titles and labels
 plt.title('Height')
@@ -71,11 +71,11 @@ plt.show()
 
 
 #Histogram for Weight
-gender_counts = df['Weight'].value_counts()
+weight_counts = df['Weight'].value_counts()
 
 # Create the bar chart
 plt.figure(figsize=(8, 5))  # Set the figure size (width=5 inches, height=3 inches)
-gender_counts.plot(kind='hist')
+weight_counts.plot(kind='hist')
 
 # Add titles and labels
 plt.title('Weight')
@@ -87,11 +87,11 @@ plt.show()
 
 
 #Histogram for Body_Temp
-gender_counts = df['Body_Temp'].value_counts()
+Temp_counts = df['Body_Temp'].value_counts()
 
 # Create the bar chart
 plt.figure(figsize=(8, 5))  # Set the figure size (width=5 inches, height=3 inches)
-gender_counts.plot(kind='hist')
+Temp_counts.plot(kind='hist')
 
 # Add titles and labels
 plt.title('Body_Temp')
@@ -103,11 +103,11 @@ plt.show()
 
 
 #Histogram for Duration
-gender_counts = df['Duration'].value_counts()
+duration_counts = df['Duration'].value_counts()
 
 # Create the bar chart
 plt.figure(figsize=(8, 5))  # Set the figure size (width=5 inches, height=3 inches)
-gender_counts.plot(kind='hist')
+duration_counts.plot(kind='hist')
 
 # Add titles and labels
 plt.title('Duration')
@@ -119,11 +119,11 @@ plt.show()
 
 
 #Histogram for Heart_Rate
-gender_counts = df['Heart_Rate'].value_counts()
+Hrate_counts = df['Heart_Rate'].value_counts()
 
 # Create the bar chart
 plt.figure(figsize=(8, 5))  # Set the figure size (width=5 inches, height=3 inches)
-gender_counts.plot(kind='hist')
+Hrate_counts.plot(kind='hist')
 
 # Add titles and labels
 plt.title('Heart_Rate')
